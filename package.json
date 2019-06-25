@@ -1,6 +1,6 @@
 {
-  "name": "redux-segment",
-  "version": "1.6.2",
+  "name": "@jcarroll2007/redux-segment",
+  "version": "1.6.3",
   "description": "Segment.io analytics integration for redux.",
   "main": "dist/index.js",
   "types": "typings/redux-segment.d.ts",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rangle/redux-segment.git"
+    "url": "git+https://github.com/jcarroll2007/redux-segment.git"
   },
   "keywords": [
     "redux",
@@ -34,9 +34,9 @@
   "author": "Rangle.io <redux-segment@rangle.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rangle/redux-segment/issues"
+    "url": "https://github.com/jcarroll2007/redux-segment/issues"
   },
-  "homepage": "https://github.com/rangle/redux-segment#readme",
+  "homepage": "https://github.com/jcarroll2007/redux-segment#readme",
   "devDependencies": {
     "@angular/core": "^2.4.3",
     "@ngrx/core": "^1.2.0",
@@ -86,6 +86,8 @@
       "typings/"
     ],
     "parser": "babel-eslint",
-    "plugins": [ "flowtype" ]
+    "plugins": [
+      "flowtype"
+    ]
   }
 }
